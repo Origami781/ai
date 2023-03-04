@@ -1,0 +1,20 @@
+canvas{
+    border-width:10px;
+border-style:dashed;
+border-color:#04e0ff;
+background-color:lavender;
+box-shadow:3px 3px 20px #04e0ff;
+animation:colorchange3D 6s infinite;  
+
+}
+
+@keyframes colorchange3D{
+    0%{box-shadow:3px 3px 40px rgb(255, 0, 0); border-color:rgb(255, 0, 0)}
+    20%{box-shadow:3px 3px 40px rgb(255, 153, 0); border-color:rgb(255, 153, 0)}
+    40%{box-shadow:3px 3px 40px rgb(238, 255, 0); border-color:rgb(238, 255, 0)}
+    60%{box-shadow:3px 3px 40px rgb(0, 255, 106); border-color:rgb(0, 255, 106)}
+    80%{box-shadow:3px 3px 40px rgb(0, 191, 255); border-color:rgb(0, 191, 255)}
+    100%{box-shadow:3px 3px 40px rgb(144, 0, 255); border-color:rgb(144, 0, 255)} 
+    
+    }
+    
